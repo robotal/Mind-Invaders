@@ -12,12 +12,13 @@ public class SpaceInvaders extends JFrame {
         super();
 
         add(new Board(server));
-        setTitle("Space Invaders");
+        setTitle("Mind Invaders");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(Constants.BOARD_WIDTH, Constants.BOARD_HEIGHT);
         setLocationRelativeTo(null);
         setVisible(true);
         setResizable(false);
+        toFront();
    }
 
     public static void main(String[] args){

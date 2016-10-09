@@ -271,7 +271,7 @@ public class Board extends JPanel implements Runnable {
                     message = "Invasion!";
                 }
 
-                alien.act(direction);
+                alien.act(direction*Constants.ALIEN_SPEED);
             }
         }
 

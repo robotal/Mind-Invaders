@@ -12,6 +12,7 @@ public class Constants {
     public static final int PLAYER_WIDTH = 40;
     public static final int PLAYER_HEIGHT = 30;
     public static final int PLAYER_SPEED = 12;
+    public static final int ALIEN_SPEED = 6;
 
     public static final int BOMB_HEIGHT = 5;
     public static final int BOMB_TRAVEL_DIST = 3;
@@ -20,7 +21,7 @@ public class Constants {
     public static final int ALIEN_WIDTH = 50;
 
     public static final int SHOT_TRAVEL_DIST = 15;
-    public static final int SHOT_WIDTH = 12;
+    public static final int SHOT_WIDTH = 3;
     public static final int SHOT_HEIGHT = 12;
     public static final long SHOT_DELAY = 250L;
 
